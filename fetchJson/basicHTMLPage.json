@@ -1,9 +1,7 @@
 { 
     "div":{
-    "h1" : "myFirstDiv",
-    "p" : {
-        "innerHTML": "myFirstParagraph",
-        "style":"color:green; background-color:black"    
-        }
+        "id":"myFirstDiv",
+        "innerHTML" : "myFirstDiv",
+        "style" : "style":"color:green; background-color:black"
     }
 }
