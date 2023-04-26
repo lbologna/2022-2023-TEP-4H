@@ -2,6 +2,6 @@
     "div":{
         "id":"myFirstDiv",
         "innerHTML" : "myFirstDiv",
-        "style" : "style":"color:green; background-color:black"
+        "style" : "style":"color:green; background-color:black",
     }
 }
