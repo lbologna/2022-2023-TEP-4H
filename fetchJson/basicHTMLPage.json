@@ -1,1 +1,9 @@
-
+{ 
+    "div":{
+    "h1" : "myFirstDiv",
+    "p" : {
+        "innerHTML": "myFirstParagraph",
+        "style":"color:green; background-color:black"    
+        }
+    }
+}
