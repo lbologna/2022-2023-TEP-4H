@@ -1,7 +1,6 @@
 { 
     "div":{
         "id":"myFirstDiv",
-        "innerHTML" : "myFirstDiv",
-        "style" : "color:green; background-color:black"
+        "innerHTML" : "myFirstDiv"
     }
 }
