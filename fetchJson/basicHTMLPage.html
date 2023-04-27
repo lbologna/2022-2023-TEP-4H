@@ -15,11 +15,14 @@ fetch ("https://raw.githubusercontent.com/lbologna/2022-2023-TEP-4H/main/fetchJs
 
     let keys = Object.keys(fullResponse); // estrae le chiavi del dizionario
     for (let k = 0; k < keys.length; k++){ // per ogni chiave
-      let currentKey = keys[k]; // estrare l'elemento corrente      
-      if (currentKey == "div"){ // se l'elemento corrente è un div
+      let currentKey = keys[k]; // estrae i primi tre caratteri della chiave corrente      
+      let slicedCurrentKey = currentKey.slice(0,3);
+      console.log(keys[k]);
+      if (slicedCurrentKey == "div"){ // se l'elemento corrente è un div
          let div = document.createElement("div"); // crea un div
          div.id = fullResponse[currentKey]["id"]; // assegna l'id
          div.innerHTML = fullResponse[currentKey]["innerHTML"]; // assegna il contenuto del div
+         console.log(div.innerHTML)
          document.body.appendChild(div); // visualizza l'elemento in fondo alla pagina html
       }      
     }    
