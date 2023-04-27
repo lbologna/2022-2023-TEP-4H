@@ -2,5 +2,9 @@
     "div":{
         "id":"myFirstDiv",
         "innerHTML" : "myFirstDiv"
+    },
+    "div2":{
+        "id":"mySecondDic",
+        "innerHTML" : "mySecondDiv"
     }
 }
